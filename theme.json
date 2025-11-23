@@ -1,0 +1,11 @@
+{
+  "name": "CRT Filter",
+  "author": "neomikus",
+  "version": "v1.0.0",
+  "description": "CRT Filter for SteamDeck's interface. Made to be used with a future theme I'm making",
+  "target": "Other",
+  "manifest_version": 9,
+  "inject": {
+    "shared.css": ["bigpicture", "QuickAccess", "MainMenu"]
+  }
+}
